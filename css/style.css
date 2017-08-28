@@ -5,6 +5,13 @@ body{font-family: "微软雅黑";}
 .inner{width: 1000px; margin: 0 auto;}
 .clearfix:after{content: '.'; display: block; visibility: hidden; height: 0; clear: both;}
 
+.h-top{height: 60px}
+.h-top .h-logo{width: 104px; height: 56px; padding-top: 2px; float: left; padding-left: 7px; }
+.h-top ul{width: 460px; float: right;}
+.h-top ul li a{float: left; line-height: 56px; font-size: 14px; color: #242424; padding:0 7px;}
+.h-top ul li a:hover{color: #d42b49}
+.h-top .zhijiao{float: right; padding-top: 10px; padding-right: 7px}
+
 /*header*/
 .header{background: url(../images/bg_01.jpg) no-repeat center; background-image: cover; height: 1140px;}
 .header p{width: 650px; margin: 0 auto; font-size: 14px; text-align: center; color: #656565; padding-top: 415px;}
@@ -64,7 +71,7 @@ body{font-family: "微软雅黑";}
 .content-two .ct-top{height: 146px;  border: 1px solid #f1eff0; background: url(../images/bar_02.jpg) no-repeat; border-top-color: #FFFFFF; }
 .content-two .ct-top .bg{height: 130px; background-color: #f1eff0; margin-top: 27px;}
 .content-two .ct-top .character{width: 331px; height: 43px; background: url('../images/zi_03.jpg'); margin: -85px auto;}
-.content-two .ct-center{height: 405px; background-color: #626364;}
+.content-two .ct-center{height: 405px; background-color: #484748;}
 
 
 .module{width: 25%; height: 405px; position: relative; overflow: hidden; float: left;}
@@ -129,7 +136,7 @@ body{font-family: "微软雅黑";}
 .event_list li span {display:block;float:left; font-size: 14px; color: #626364; width: 125px; text-align: right;}
 .event_list li p {display:inline-block; background:url('../images/jian.png') -21px 0 no-repeat;line-height:25px; position: relative; left: 178px; top:-21px; width: 575px; color: #a0a0a0; font-size: 14px; }
 
-.final{background: url(../images/bg01_02.jpg) no-repeat center 85px; height: 907px;}
+.final{background: url(../images/bg01_02.jpg) no-repeat center 165px; height: 987px;}
 .final .vidio p{font-size: 18px; color: #626364; padding: 54px 0 17px 0; text-align: center;}
 .final .vidio a img{text-align: center; margin: 0 auto; display: block;}
 .final .speak img{padding: 70px 0 25px 0; display: block; margin: 0 auto;}
@@ -138,4 +145,7 @@ body{font-family: "微软雅黑";}
 
 @media only screen and (max-width: 1024px) {
 	.events{width: 100%;}
+
 }
+
+
