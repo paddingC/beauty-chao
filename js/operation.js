@@ -142,3 +142,10 @@ $(function(){
 	
 	
 })
+
+//================================================
+var $guideSlider = $("#guideSlider").eq(0);
+
+$guideSlider.find(".guide-list .guide").hover(function() {
+$(this).addClass("on").siblings().removeClass("on");
+});
